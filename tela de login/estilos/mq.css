@@ -1,0 +1,64 @@
+﻿@charset "UTF-8";
+
+:root{
+	--azul: #525062;
+	--verde: #506F2F;
+	--marrom: #4E4539;
+}
+
+@media screen and (min-width: 650px) and (max-width: 992px){
+
+	body{
+	background-image: linear-gradient(to bottom, var(--marrom), var(--azul));
+	}
+
+	section#login{
+	width: 80vw;
+	}
+
+	#login> #imagem{
+	float: left;
+	width: 30%;
+	height: 100%;
+	background-position: center bottom;
+	}
+
+	#login> #form{
+	float:right;
+	width: 70%;
+	}
+}
+
+@media screen and (min-width: 992px){
+
+	body{
+	background-image: linear-gradient(to bottom, var(--marrom), var(--azul));
+	}
+
+	section#login{
+	width: 70vw;
+	height: 350px;
+	}
+	
+	#login> #imagem{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-position: center bottom;
+	}
+
+	#login> #form{
+	float:left;
+	width: 50%;
+	}
+
+	#form> h1{
+	font-size: 2em;
+}
+
+	#form > p{
+	font-size: 1.2em;
+	margin: 20px 0;
+}
+
+}
